@@ -1,0 +1,28 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.fondo{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 900px;
+}
+.carta{
+    background-color: rgb(255, 0, 0);
+    width: 350px;
+    height: 470px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
